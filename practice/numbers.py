@@ -18,3 +18,7 @@ print(5 * 3 + 1)
 print(5 ** 2)
 
 print(2 ** 7)
+
+width = 20
+height = 5 * 9
+print(width * height)
