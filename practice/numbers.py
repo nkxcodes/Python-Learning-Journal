@@ -22,3 +22,5 @@ print(2 ** 7)
 width = 20
 height = 5 * 9
 print(width * height)
+
+print(4 * 3.75 -1)
