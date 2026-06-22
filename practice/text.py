@@ -72,3 +72,8 @@ print(word[42:])
 # Python strings are immutable
 
 word[1] = 'h' # will give error
+
+word_2 = 'p' + word[1:]
+print(word_2)
+
+print(word[0:7] + 'ity')
