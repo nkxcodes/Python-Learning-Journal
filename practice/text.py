@@ -77,3 +77,8 @@ word_2 = 'p' + word[1:]
 print(word_2)
 
 print(word[0:7] + 'ity')
+
+# The built-in function len() return the length of a string
+
+word_3 = 'You Are Made Of StarDust'
+print(len(word_3)) # 24
