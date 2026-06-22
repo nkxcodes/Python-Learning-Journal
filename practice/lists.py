@@ -22,3 +22,10 @@ print(even_numbers)
 even_numbers.append(34)
 even_numbers.append(6 * 6)
 print(even_numbers)
+
+odd_numbers = even_numbers
+print(id(odd_numbers) == id(even_numbers)) # They reference the same object
+odd_numbers.append(37)
+
+print(even_numbers)
+print(odd_numbers)
