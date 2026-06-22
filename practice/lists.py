@@ -16,3 +16,9 @@ even_numbers += [22, 24, 26, 28, 30, 33] # last number is not even
 even_numbers[-1] = 32 # Unlike strings, which are immutable, lists are mutable type
 
 print(even_numbers)
+
+# We can add new items in list, using list.append()
+
+even_numbers.append(34)
+even_numbers.append(6 * 6)
+print(even_numbers)
