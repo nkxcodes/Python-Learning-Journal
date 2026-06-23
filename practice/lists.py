@@ -29,3 +29,10 @@ odd_numbers.append(37)
 
 print(even_numbers)
 print(odd_numbers)
+
+# All slice operations return a new list containing the requested elements.
+# This means that the following slice returns a shallow copy of the list.
+
+correct_odd = even_numbers[:]
+correct_odd[:] = [3, 5, 7, 9, 11, 13, 15, 17, 19]
+print(correct_odd) 
