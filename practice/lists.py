@@ -53,3 +53,10 @@ print(correct_odd)
 alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'i', 'j', 'k']
 len(alphabets) # The built-in function list also applies to list
 print(len(alphabets))
+
+# It is possible to nest list (create lists containing other lists)
+
+odd_numbers = [1, 3, 5, 7, 9]
+even_numbers = [2, 4, 6, 8, 10]
+combined_numbers = [odd_numbers, even_numbers]
+print(combined_numbers)
