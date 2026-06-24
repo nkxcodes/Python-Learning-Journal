@@ -36,3 +36,16 @@ print(odd_numbers)
 correct_odd = even_numbers[:]
 correct_odd[:] = [3, 5, 7, 9, 11, 13, 15, 17, 19]
 print(correct_odd) 
+
+# Assignments to the slices is also possible
+
+correct_odd[3:6] = [8, 10, 12]
+print(correct_odd)
+
+correct_odd[3:6] = []
+print(correct_odd)
+
+# Remove all values from correct_odd
+
+correct_odd[:] = []
+print(correct_odd)
