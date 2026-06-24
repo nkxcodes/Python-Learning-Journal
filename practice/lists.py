@@ -49,3 +49,7 @@ print(correct_odd)
 
 correct_odd[:] = []
 print(correct_odd)
+
+alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'i', 'j', 'k']
+len(alphabets) # The built-in function list also applies to list
+print(len(alphabets))
