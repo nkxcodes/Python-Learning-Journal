@@ -44,3 +44,15 @@ x /= 5
 x //= 5
 x %= 5
 x **= 5
+
+# Logical Operators
+    # Used to Combine Conditions
+
+if 5 > 3 and 5 == 5: # True and False -> False
+    print('Hello')
+
+if 5 > 3 or 5 == 5: # True or False -> True
+    print('Hello')
+
+if not 5 == 5: # not True
+    print('Hello')
