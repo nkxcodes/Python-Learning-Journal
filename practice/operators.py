@@ -74,3 +74,18 @@ print(~a) # Bitwise NOT (~)
 print(5 << 1) # Left Shift (<<)
 
 print(20 >> 2) # Right Shift (>>)
+
+# Membership Operators
+ # Check if a value exists in a sequence
+
+print('a' in 'apple') # in
+
+print('z' not in 'apple') # not in
+
+# Identity Operators
+    # Check whether two variables refer to the same object
+
+a = [1, 2]
+b = a
+print(a is b) # is
+print(a is not b) # not is
