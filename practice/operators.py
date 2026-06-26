@@ -56,3 +56,21 @@ if 5 > 3 or 5 == 5: # True or False -> True
 
 if not 5 == 5: # not True
     print('Hello')
+
+# Bitwise Operators 
+    # Operate on binary numbers.
+
+a = 5
+b = 3
+
+print(a & b) # Bitwise AND (&)
+
+print(a | b) # Bitwise OR (|)
+
+print(a ^ b) # Bitwise XOR (^)
+
+print(~a) # Bitwise NOT (~)
+
+print(5 << 1) # Left Shift (<<)
+
+print(20 >> 2) # Right Shift (>>)
