@@ -62,3 +62,20 @@ print(x_6) # Output: 2
 x_7 = 2
 x_7 **= 5
 print(x_7) # Output: 32
+
+# Comparison Operators
+    # Predict True or False
+
+print(5 == 5) # Output: True
+
+print(5 != 8) # Output: True
+
+print(10 > 7) # Output: True
+
+print(4 < 1) # Output: False
+
+print(8 >= 8) # Output: True
+
+print(5 <= 3) # Output: False
+
+print(10 == '10')  # Output: False
