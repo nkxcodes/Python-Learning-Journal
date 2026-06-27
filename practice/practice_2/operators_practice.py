@@ -79,3 +79,20 @@ print(8 >= 8) # Output: True
 print(5 <= 3) # Output: False
 
 print(10 == '10')  # Output: False
+
+# Logical Operators
+
+print('Logical Operators')
+
+print(True and False) # Output: False
+
+print(True or False) # Output: True
+
+print(not True) # Output: False
+
+print(5 > 3 and 8 > 10) # Output: False
+
+print(not (5 > 3)) # Output: False
+
+age = 18
+print(age >= 18 and age <= 60)  # Output: True 
