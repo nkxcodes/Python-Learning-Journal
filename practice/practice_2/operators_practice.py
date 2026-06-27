@@ -158,3 +158,16 @@ print(2 ** 3 ** 2) # Output: 512 # Exponentiation does calculation from right to
 print(100 // 9) # Output: 11
 
 print(100 % 9) # Output: 1
+
+# Final Boss
+
+print('Final Boss')
+
+x = 8
+y = 3
+
+print(x // y) # Output: 2
+print(x % y) # Output: 2
+print(x > y and x % y == 2) # Output: True
+print((x + y) * 2) # Output: 22
+print(not (x == y)) # Output: True
