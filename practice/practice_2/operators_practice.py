@@ -96,3 +96,18 @@ print(not (5 > 3)) # Output: False
 
 age = 18
 print(age >= 18 and age <= 60)  # Output: True 
+
+
+# Membership Operators
+
+numbers = [1, 2, 3, 4]
+print(3 in numbers) # Output: True
+
+print(10 in numbers) # Output: False
+
+print(5 not in numbers) # Output: True
+
+name = 'python'
+print('p' in name)  # Output: True
+
+print('java' in name) # Output: False
