@@ -32,3 +32,33 @@ print(20 % 3) # Output: 2
 print(3 + 4 * 2) # Output: 11
 
 print((3 + 4) * 2)  # Output: 14
+
+# Assignment Operators 
+
+x = 10
+x += 5
+print(x) # Output: 15
+
+x_2 = 20
+x_2 -= 8
+print(x_2) # Output: 12
+
+x_3 = 4
+x_3 *= 3
+print(x_3) # Output: 12
+
+x_4 = 20
+x_4 /= 4
+print(x_4) # Output: 5.0
+
+x_5 = 17
+x_5 //= 5
+print(x_5) # Output: 3
+
+x_6 = 17
+x_6 %= 5
+print(x_6) # Output: 2
+
+x_7 = 2
+x_7 **= 5
+print(x_7) # Output: 32
