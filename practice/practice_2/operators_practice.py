@@ -100,6 +100,8 @@ print(age >= 18 and age <= 60)  # Output: True
 
 # Membership Operators
 
+print('Membership Operators')
+
 numbers = [1, 2, 3, 4]
 print(3 in numbers) # Output: True
 
@@ -111,3 +113,19 @@ name = 'python'
 print('p' in name)  # Output: True
 
 print('java' in name) # Output: False
+
+# Identity Operators
+
+print('Identity Operators')
+
+a = [1, 2]
+b = a
+print(a is b) # Output: True
+
+a_2 = [1, 2]
+b_2 = [1, 2]
+print(a_2 is b_2) # Output: False
+
+a = [1, 2]
+b = [1, 2]
+print(a == b) # Output: True
