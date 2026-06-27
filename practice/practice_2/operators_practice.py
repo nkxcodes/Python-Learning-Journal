@@ -129,3 +129,32 @@ print(a_2 is b_2) # Output: False
 a = [1, 2]
 b = [1, 2]
 print(a == b) # Output: True
+
+# Mixed Questions
+
+print('Mixed Questions')
+
+print(10 + 5 * 2 ** 3) # Output: 50
+
+x = 5
+x += 2
+x *= 3
+x -= 4
+
+print(x) # Output: 
+
+print((5 > 3) and (10 % 2 == 0)) # Output: True
+
+print(not (7 < 10 and 8 > 3)) # Output: False
+
+numbers = [10, 20, 30]
+
+print(20 in numbers and 40 not in numbers) # Output: True
+
+print( 4 + 5 > 10 or 3 * 2 == 6) # Output: True
+
+print(2 ** 3 ** 2) # Output: 512 # Exponentiation does calculation from right to left, opposite in mulitplication
+
+print(100 // 9) # Output: 11
+
+print(100 % 9) # Output: 1
