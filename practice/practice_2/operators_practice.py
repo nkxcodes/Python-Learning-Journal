@@ -28,3 +28,7 @@ print(20 // 3) # Output: 6
 print(20 / 3) # Output: 6.666
 
 print(20 % 3) # Output: 2
+
+print(3 + 4 * 2) # Output: 11
+
+print((3 + 4) * 2)  # Output: 14
