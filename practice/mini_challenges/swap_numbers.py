@@ -14,7 +14,7 @@
 first_number = int(input('Enter First Number: '))
 second_number = int(input('Enter Second Number: '))
 
-first_number = second_number
+first_number, second_number = second_number, first_number
 
 print('After swapping')
 print(f'First Number: {first_number}')
