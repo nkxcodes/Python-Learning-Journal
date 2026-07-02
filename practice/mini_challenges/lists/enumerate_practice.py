@@ -63,3 +63,21 @@ students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
 
 for index, student in enumerate(students, start=0):
     print(student)
+
+# ==========================================================
+# Question 5
+# Print each item like this:
+#
+# Item 1: Apple
+# Item 2: Mango
+# Item 3: Banana
+#
+# Use enumerate(start=1).
+# ==========================================================
+
+print('Question_5: ')
+
+students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
+
+for index, student in enumerate(students, start=1):
+    print(f'Student {index}: {student}')
