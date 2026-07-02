@@ -43,4 +43,9 @@ for index, fruit in enumerate(fruits, start=1):
 # 3
 # ==========================================================
 
-fruits_3 
+print('Question_3: ')
+
+fruits_3 = ['Apple', 'Mango', 'Banana']
+
+for index, fruit in enumerate(fruits_3, start=0):
+    print(index)
