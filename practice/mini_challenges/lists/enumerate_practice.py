@@ -81,3 +81,21 @@ students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
 
 for index, student in enumerate(students, start=1):
     print(f'Student {index}: {student}')
+
+# ==========================================================
+# Question 6
+# Print only the elements that are at even indexes.
+#
+# Example:
+# Index 0 -> Apple
+# Index 2 -> Banana
+# Index 4 -> Kiwi
+# ==========================================================
+
+print('Question_6: ')
+
+students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
+
+for index, student in enumerate(students, start=0):
+    if index % 2 == 0:
+        print(f'Index {index} -> {student}')
