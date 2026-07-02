@@ -141,3 +141,22 @@ if founded:
     print(f'{find} found at index {find_index}')
 else:
     print(f'{find} not found in the list')
+
+# ==========================================================
+# Question 9
+# Count how many elements are longer than 5 characters.
+#
+# Use enumerate() while looping.
+# ==========================================================
+
+print('Question_9: ')
+
+students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
+
+count = 0
+
+for index, student in enumerate(students, start=0):
+    if len(student) >= 5:
+        count += 1
+
+print(f'{count} elements are longer than 5 characters')
