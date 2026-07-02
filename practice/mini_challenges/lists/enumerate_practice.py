@@ -99,3 +99,16 @@ students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
 for index, student in enumerate(students, start=0):
     if index % 2 == 0:
         print(f'Index {index} -> {student}')
+
+# ==========================================================
+# Question 7
+# Print only the elements that are at odd indexes.
+# ==========================================================
+
+print('Question_7: ')
+
+students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
+
+for index, student in enumerate(students, start=0):
+    if index % 2 != 0:
+        print(f'Index {index} -> {student}')
