@@ -112,3 +112,32 @@ students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
 for index, student in enumerate(students, start=0):
     if index % 2 != 0:
         print(f'Index {index} -> {student}')
+
+# ==========================================================
+# Question 8
+# Find the index of a given value using enumerate().
+#
+# Example:
+# Find "Orange"
+#
+# Output:
+# Orange found at index 3
+# ==========================================================
+
+print('Question_8: ')
+
+students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
+
+find = input('Find: ')
+founded = False
+find_index = 0
+
+for index, student in enumerate(students, start=0):
+    if student == find:
+        founded = True
+        find_index = index
+
+if founded:
+    print(f'{find} found at index {find_index}')
+else:
+    print(f'{find} not found in the list')
