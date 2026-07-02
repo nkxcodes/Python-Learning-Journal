@@ -31,3 +31,16 @@ fruits_2 = ['Apple', 'Mango', 'Banana']
 
 for index, fruit in enumerate(fruits, start=1):
     print(f'{index} {fruit}')
+
+# ==========================================================
+# Question 3
+# Print only the indexes of every element.
+#
+# Example Output:
+# 0
+# 1
+# 2
+# 3
+# ==========================================================
+
+fruits_3 
