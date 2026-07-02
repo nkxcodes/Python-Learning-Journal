@@ -49,3 +49,17 @@ fruits_3 = ['Apple', 'Mango', 'Banana']
 
 for index, fruit in enumerate(fruits_3, start=0):
     print(index)
+
+# ==========================================================
+# Question 4
+# Print only the values using enumerate().
+#
+# (Do not remove enumerate() even though it isn't necessary.)
+# ==========================================================
+
+print('Question_4: ')
+
+students = ["Rahul", "Priya", "Aman", "Neha", "Riya", "Karan"]
+
+for index, student in enumerate(students, start=0):
+    print(student)
