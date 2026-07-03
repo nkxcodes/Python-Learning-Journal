@@ -175,6 +175,22 @@ numbers = [18, -7, 0, 45, -12, 9, -3, 27, 14, -25, 6, -1, 33, -18, 50]
 
 for index, number in enumerate(numbers, start=0):
     if number < 0:
-        number[index] = 0
+        numbers[index] = 0
+
+print(numbers)
+
+# ==========================================================
+# Question 11
+# Multiply every element by 2 using enumerate()
+# and store the result back into the same list.
+# ==========================================================
+
+
+print('Question_11: ')
+
+numbers = [12, 45, 7, 89, 23, 56, 91, 18, 34, 5]
+
+for index, number in enumerate(numbers, start=0):
+    numbers[index] = number * 2
 
 print(numbers)
