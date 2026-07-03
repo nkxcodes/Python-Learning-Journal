@@ -160,3 +160,21 @@ for index, student in enumerate(students, start=0):
         count += 1
 
 print(f'{count} elements are longer than 5 characters')
+
+# ==========================================================
+# Question 10
+# Replace every negative number in a list with 0.
+#
+# Hint:
+# enumerate() gives both the index and the value.
+# ==========================================================
+
+print('Question_10: ')
+
+numbers = [18, -7, 0, 45, -12, 9, -3, 27, 14, -25, 6, -1, 33, -18, 50]
+
+for index, number in enumerate(numbers, start=0):
+    if number < 0:
+        number[index] = 0
+
+print(numbers)
