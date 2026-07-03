@@ -194,3 +194,20 @@ for index, number in enumerate(numbers, start=0):
     numbers[index] = number * 2
 
 print(numbers)
+
+# ==========================================================
+# Question 12
+# Print all indexes where the value is even.
+#
+# Example Output:
+# Even number at index 1
+# Even number at index 4
+# ==========================================================
+
+print('Question_12: ')
+
+numbers = [13, 24, 7, 18, 45, 60, 9, 32, 11, 50, 27, 14, 3, 22, 19]
+
+for index, number in enumerate(numbers, start=0):
+    if number % 2 == 0:
+        print(f'Even number at Index {index}')
