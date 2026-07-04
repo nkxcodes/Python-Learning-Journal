@@ -211,3 +211,25 @@ numbers = [13, 24, 7, 18, 45, 60, 9, 32, 11, 50, 27, 14, 3, 22, 19]
 for index, number in enumerate(numbers, start=0):
     if number % 2 == 0:
         print(f'Even number at Index {index}')
+
+# ==========================================================
+# Question 13
+# Find the largest number and print both:
+# - its value
+# - its index
+#
+# Do not use list.index().
+# ==========================================================
+
+numbers = [18, 42, 7, 91, 35, 12, 64, 29, 56, 83, 15, 77]
+
+largest_number = 0
+index = 0
+
+for index_2, number in enumerate(numbers, start=0):
+    if number > largest_number:
+        largest_number = number
+        index = index_2
+
+print(f'Largest Number: {largest_number}')
+print(f'Index: {index}')
