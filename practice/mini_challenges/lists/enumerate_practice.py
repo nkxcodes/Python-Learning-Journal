@@ -221,6 +221,8 @@ for index, number in enumerate(numbers, start=0):
 # Do not use list.index().
 # ==========================================================
 
+print('Question_13: ')
+
 numbers = [18, 42, 7, 91, 35, 12, 64, 29, 56, 83, 15, 77]
 
 largest_number = 0
@@ -232,4 +234,26 @@ for index_2, number in enumerate(numbers, start=0):
         index = index_2
 
 print(f'Largest Number: {largest_number}')
+print(f'Index: {index}')
+
+# ==========================================================
+# Question 14
+# Find the smallest number and print both:
+# - its value
+# - its index
+#
+# Do not use list.index().
+# ==========================================================
+
+numbers = [18, 42, 7, 91, 35, 12, 64, 29, 56, 83, 15, 77]
+
+smallest_number = numbers[0]
+index = 0
+
+for index_2, number in enumerate(numbers, start=0):
+    if number < smallest_number:
+        smallest_number = number
+        index = index_2
+
+print(f'Smallest Number: {smallest_number}')
 print(f'Index: {index}')
