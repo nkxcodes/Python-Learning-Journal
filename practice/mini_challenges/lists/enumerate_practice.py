@@ -257,3 +257,33 @@ for index_2, number in enumerate(numbers, start=0):
 
 print(f'Smallest Number: {smallest_number}')
 print(f'Index: {index}')
+
+
+# ==========================================================
+# Question 15
+# Print every element in reverse order together with
+# its original index.
+#
+# Example:
+# 4 Kiwi
+# 3 Orange
+# 2 Banana
+# ==========================================================
+
+print('Question_15: ')
+
+words = [
+    "Hi",
+    "Programming",
+    "Cat",
+    "Observation",
+    "Sky",
+    "Computer",
+    "AI",
+    "Notebook"
+]
+
+words.reverse()
+
+for index, word in enumerate(words, start=7):
+    print(f'{index}, {word}')
