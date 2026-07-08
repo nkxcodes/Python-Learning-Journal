@@ -13,6 +13,8 @@ while is_running:
         is_running = False
     numbers.append(num)
 
+numbers.pop(-1)
+
 print(numbers)
 
 new_number = int(input('Enter a new number at a position: '))
