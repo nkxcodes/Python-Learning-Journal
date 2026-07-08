@@ -287,3 +287,24 @@ words.reverse()
 
 for index, word in enumerate(words, start=7):
     print(f'{index}, {word}')
+
+# ==========================================================
+# Question 16
+# Create a new list containing only the values that
+# appear at even indexes.
+# ==========================================================
+
+print('Question_16: ')
+
+numbers = [
+    45, 12, 78, 3, 91, 27, 64, 8, 39, 50,
+    17, 88, 5, 73, 26, 41, 99, 14, 60, 31
+]
+
+even_indexes = []
+
+for index, number in enumerate(numbers, start=0):
+    if index % 2 == 0:
+        even_indexes.append(number)
+
+print(even_indexes)
