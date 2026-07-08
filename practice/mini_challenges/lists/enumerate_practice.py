@@ -308,3 +308,22 @@ for index, number in enumerate(numbers, start=0):
         even_indexes.append(number)
 
 print(even_indexes)
+
+# ==========================================================
+# Question 17
+# Count how many times each index contains an odd number.
+#
+# Print:
+# Index 3 contains an odd number.
+# ==========================================================
+
+print('Question_17: ')
+
+numbers = [
+    45, 12, 78, 3, 91, 27, 64, 8, 39, 50,
+    17, 88, 5, 73, 26, 41, 99, 14, 60, 31
+]
+
+for index, number in enumerate(numbers, start=0):
+    if number % 2 != 0:
+        print(f'Index {index} contains an odd number.')
