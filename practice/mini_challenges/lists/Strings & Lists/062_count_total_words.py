@@ -3,14 +3,11 @@
 
 sentence = input('Enter a Sentence: ')
 
-words_list = []
+words_list = sentence.split()
 
 count = 0
 
-for word in sentence:
-    words_list.append(word)
-
-for word in sentence:
+for word in words_list:
     count += 1
 
-print(f'Words: {count}')
+print(f'Count: {count}')
