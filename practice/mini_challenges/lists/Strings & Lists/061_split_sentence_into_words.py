@@ -3,9 +3,6 @@
 
 sentence = input('Enter a Sentence: ')
 
-char_list = []
+words_list = sentence.split()
 
-for char in sentence:
-    char_list.append(char)
-
-print(char_list)
+print(words_list)
