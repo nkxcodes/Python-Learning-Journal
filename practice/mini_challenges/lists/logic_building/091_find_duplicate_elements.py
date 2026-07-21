@@ -14,4 +14,3 @@ for number in numbers:
         original_numbers.append(number)
 
 print(dup_numbers)
-print(original_numbers)
