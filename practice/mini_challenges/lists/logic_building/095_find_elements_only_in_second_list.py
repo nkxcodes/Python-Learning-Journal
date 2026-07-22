@@ -7,3 +7,10 @@ list2 = [3, 5, 6, 7]
 for element in list2:
     if element not in list1:
         print(element)
+
+list1 = [10, 20, 30]
+list2 = [20, 40, 50]
+
+for element in list2:
+    if element not in list1:
+        print(element)
