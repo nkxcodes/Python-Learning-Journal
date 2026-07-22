@@ -21,3 +21,16 @@ list2 = ["banana", "orange", "mango", "kiwi"]
 for element in list1:
     if element in list2:
         print(element)
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+found = False
+
+for number in list1:
+    if number in list2:
+        print(number)
+        found = True
+
+if not found:
+    print('No common elements found.')
