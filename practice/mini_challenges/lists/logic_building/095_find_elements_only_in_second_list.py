@@ -14,3 +14,10 @@ list2 = [20, 40, 50]
 for element in list2:
     if element not in list1:
         print(element)
+
+list1 = ["apple", "banana", "mango"]
+list2 = ["banana", "orange", "kiwi", "mango"]
+
+for element in list2:
+    if element not in list1:
+        print(element)
