@@ -21,3 +21,16 @@ list2 = ["banana", "orange", "kiwi", "mango"]
 for element in list2:
     if element not in list1:
         print(element)
+
+list1 = [2, 4, 6, 8]
+list2 = [2, 4, 6]
+
+found = False
+
+for element in list2:
+    if element not in list1:
+        print(element)
+        found = True
+
+if not found:
+    print('No elements found.')
