@@ -34,3 +34,16 @@ for element in list2:
 
 if not found:
     print('No elements found.')
+
+list1 = [2, 4, 6]
+list2 = [1, 2, 2, 3, 5, 5]
+
+processed = []
+
+for element in list2:
+    if element not in list1:
+        if element in processed:
+            continue
+        else:
+            print(element)
+            processed.append(element)
