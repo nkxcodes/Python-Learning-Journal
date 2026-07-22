@@ -47,3 +47,10 @@ for element in list2:
         else:
             print(element)
             processed.append(element)
+
+list1 = [5, 10, 15, 20, 25]
+list2 = [10, 15, 30, 35, 25, 40]
+
+for element in list2:
+    if element not in list1:
+        print(element)
