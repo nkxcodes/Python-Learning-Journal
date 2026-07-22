@@ -14,3 +14,10 @@ list2 = [20, 40, 60, 80]
 for number in list1:
     if number in list2:
         print(number)
+
+list1 = ["apple", "banana", "mango", "grapes"]
+list2 = ["banana", "orange", "mango", "kiwi"]
+
+for element in list1:
+    if element in list2:
+        print(element)
