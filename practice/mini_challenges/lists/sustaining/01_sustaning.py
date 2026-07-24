@@ -47,3 +47,11 @@ list5 = [10, 10, 20, 20, 30, 30, 40, 40, 50, 50, 60]
 list5 = list5[::-1]
 
 print(list5)
+
+list6 = [10, 10, 20, 20, 30, 30, 40, 40, 50, 50, 60]
+
+for index in range(len(list6) -1, -1, -1):
+    if list6[index] % 2 == 0:
+        list6.remove(list6[index])
+
+print(list6)
