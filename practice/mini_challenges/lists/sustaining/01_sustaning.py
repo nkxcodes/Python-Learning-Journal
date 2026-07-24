@@ -20,3 +20,12 @@ for element in list2:
         smallest_element = element
 
 print(f'Smallest Element: {smallest_element}')
+
+list3 = [10, 20, 30, 40, 50, 60]
+
+total = 0
+
+for element in list3:
+    total += element
+
+print(f'Total: {total}')
