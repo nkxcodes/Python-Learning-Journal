@@ -55,3 +55,14 @@ for index in range(len(list6) -1, -1, -1):
         list6.remove(list6[index])
 
 print(list6)
+
+list7 = [10, 10, 20, 20, 30, 30, 40, 40, 50, 50, 60]
+
+total = 0
+
+for element in list7:
+    total += 1
+
+average = total / len(list7)
+
+print(f'Average: {average}')
