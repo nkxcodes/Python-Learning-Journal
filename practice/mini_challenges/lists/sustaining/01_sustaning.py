@@ -29,3 +29,15 @@ for element in list3:
     total += element
 
 print(f'Total: {total}')
+
+number = int(input('Enter number to count: '))
+
+list4 = [10, 10, 20, 20, 30, 30, 40, 40, 50, 50, 60]
+
+count = 0
+
+for element in list4:
+    if element == number:
+        count += 1
+
+print(f'Count: {count}')
