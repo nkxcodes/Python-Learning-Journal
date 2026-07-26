@@ -7,11 +7,9 @@ count = 0
 
 processed = []
 
-previous_winner_count = 0
+previous_most_count = 0
 
-current_winner = ''
-
-appeared_most = ''
+current_most_count = ''
 
 for index in range(0, len(list1)):
     if list1[index] in processed:
@@ -22,12 +20,12 @@ for index in range(0, len(list1)):
             if list1[index] == list1[index_2]:
                 count += 1
 
-        if count > previous_winner_count:
-            previous_winner_count = count
-            current_winner = list1[index]
+        if count > previous_most_count:
+            previous_most_count = count
+            current_most_count = list1[index]
         
         count = 0
         processed.append(list1[index])
 
-print(f'Winner: {current_winner}')
-print(f'Appeared: {previous_winner_count}')
+print(f'Most Appeared: {current_most_count}')
+print(f'Appeared: {previous_most_count} times')
