@@ -12,6 +12,5 @@ for element in list1:
     else:
         odd_numbers.append(element)
 
-
 print(even_numbers)
 print(odd_numbers)
