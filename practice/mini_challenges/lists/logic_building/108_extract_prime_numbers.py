@@ -11,7 +11,7 @@ for element in list1:
     for number in range(2, 6):
         if element % number == 0:
             prime = False
-    
+            
     if prime == True:
         prime_numbers.append(element)
 
