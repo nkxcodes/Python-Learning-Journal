@@ -11,9 +11,9 @@ for index in range(0, len(list1)):
     original_number = list1[index]
     reversed_number = 0
     while original_number > 0:
-        reversed_number = reversed_number * 10
-        reversed_number += original_number % 10
-        original_number = original_number // 10
+        reversed_number = reversed_number * 10 # Make space for new digit
+        reversed_number += original_number % 10 # Add last digit of original number
+        original_number = original_number // 10 # Remove the last digit of original number
 
     if list1[index] == reversed_number:
         is_palindrome = True
