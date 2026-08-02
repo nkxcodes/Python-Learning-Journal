@@ -12,4 +12,4 @@ def fibonacci_of(number): # Fibonacci function that takes a number and generate 
         print(result) # print the result
         num_1, num_2 = num_2, result # then num_1 value will be num_2 value and num_2 value will be result's value
 
-fibonacci_of(10) # Functions invocation
+fibonacci_of(10) # Function invocation
