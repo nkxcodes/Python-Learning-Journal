@@ -9,3 +9,4 @@ def sum_of(numbers):
 sum_of_10_natural_numbers = sum_of(10)
 
 print(sum_of_10_natural_numbers)
+
