@@ -1,13 +1,14 @@
 # Remove all spaces
 
-# def trim(u_string):
-    # return u_string.trim()
+def remove_spaces(u_string):
+    result = ''
+    for ch in u_string:
+        if ch == ' ':
+            continue
+        else:
+            result += ch
+    return result
 
-# result = trim('p r o g r a m m i n g')
+result = remove_spaces('P R O G R A M M I N G')
 
-# print(result)
-
-def perform_string_operations(string, u_string):
-    print(string, u_string)
-
-perform_string_operations('Nitesh', 'Kumar')
+print(result)
