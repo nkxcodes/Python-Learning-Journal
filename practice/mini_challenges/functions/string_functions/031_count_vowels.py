@@ -1,15 +1,13 @@
 # Return total vowels
 
 def total_vowels_in(u_string):
-    splited_string = u_string.split()
-    print(splited_string)
     total_vowels = 0
-    for word in splited_string:
-        if (word == 'a' or 
-            word == 'e' or
-            word == 'i' or
-            word == 'o' or
-            word == 'u'):
+    for ch in u_string:
+        if (ch == 'a' or 
+            ch == 'e' or
+            ch == 'i' or
+            ch == 'o' or
+            ch == 'u'):
             total_vowels += 1
     return total_vowels
 
