@@ -1,6 +1,6 @@
 # Return duplicate characters.
 
-def find_duplicate_characters(u_string):
+def remove_duplicate_characters(u_string):
     processed = []
     non_dup_string = ''
 
@@ -13,6 +13,6 @@ def find_duplicate_characters(u_string):
 
     return non_dup_string
 
-result = find_duplicate_characters('Programming')
+result = remove_duplicate_characters('Programming')
 
 print(result)
