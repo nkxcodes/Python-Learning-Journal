@@ -1,4 +1,4 @@
-# Return alloccurences of an element.
+# Return all occurences of an element.
 
 def remove_element(u_list, r_element):
     new_list = []
