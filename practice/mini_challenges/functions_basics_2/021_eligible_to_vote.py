@@ -5,3 +5,7 @@ def is_eligible(age):
         return 'You are eligible to vote'
     else:
         return 'You are not eligible to vote'
+
+result = is_eligible(16)
+
+print(result)
