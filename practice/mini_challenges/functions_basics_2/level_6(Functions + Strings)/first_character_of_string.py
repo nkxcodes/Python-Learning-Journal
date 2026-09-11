@@ -3,6 +3,6 @@
 def first_character(u_string):
     return u_string[0]
 
-result = first_character("Programming")
+result = first_character('Programming')
 
 print(result)
