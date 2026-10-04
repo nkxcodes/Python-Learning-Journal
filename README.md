@@ -1,61 +1,83 @@
 # Python Learning Journal
 
-A personal repository for documenting my Python learning journey through daily practice, experiments, notes, and small projects.
+This repository is my personal Python learning journal.
 
-## Purpose
+I use it to keep track of the things I learn, the problems I solve, the mistakes I make, and the small programs I build while improving my Python skills.
 
-The goal of this repository is to build consistency in learning Python by:
+## What You'll Find Here
 
-* Reading Python documentation and learning resources.
-* Practicing concepts through small code examples.
-* Experimenting with new ideas and language features.
-* Tracking progress through regular commits.
-* Building small projects as understanding grows.
+* Python notes
+* Practice problems
+* Small Python programs
+* Experiments
+* Problem-solving exercises
+* Concepts I'm learning
+* Solutions and improvements over time
 
 ## Repository Structure
 
 ```text
-python-learning-journal/
-│
-├── README.md
+Python-Learning-Journal/
 │
 ├── notes/
-│   └── Learning notes and observations
+│   └── Python concepts and notes
 │
 ├── practice/
-│   └── Daily exercises and experiments
+│   └── Python practice problems and solutions
 │
-└── mini-projects/
-    └── Small projects built while learning
+├── c_practice/
+│   └── Practice related to C
+│
+├── v_practice/
+│   └── Additional programming practice
+│
+└── README.md
 ```
 
-## Learning Approach
+The structure may change as I learn and organize the repository better.
 
-For each study session:
+## Python Topics
 
-1. Learn a small concept from documentation or another reliable source.
-2. Write a simple program to explore the concept.
-3. Experiment by modifying the code and observing the results.
-4. Record notes when necessary.
-5. Commit the work to maintain a consistent learning history.
-
-## Topics Covered
-
-This repository may include:
+Some of the topics I practice include:
 
 * Variables and Data Types
-* Control Flow
+* Conditions
+* Loops
+* Lists, Tuples, Sets and Dictionaries
 * Functions
-* Data Structures
-* Modules and Packages
+* Lambda Functions
+* `map()`
 * File Handling
-* Error Handling
+* Modules and Standard Library
+* Exception Handling
 * Object-Oriented Programming
-* Standard Library Features
-* Small Practical Projects
+* Problem Solving
 
-## Progress Philosophy
+More topics will be added as I continue learning.
 
-The focus of this repository is consistency over intensity.
+## How I Practice
 
-Small improvements made regularly accumulate into meaningful progress over time.
+I try to understand a concept before moving to the next one.
+
+My approach is simple:
+
+1. Learn a concept
+2. Write small examples
+3. Solve problems
+4. Make mistakes
+5. Understand the mistakes
+6. Try again
+7. Build something with what I learned
+
+## Progress
+
+This is an ongoing repository.
+
+It is not meant to show that I already know everything about Python. It shows my progress as I learn and improve.
+
+I will continue adding notes, practice problems, experiments, and small projects over time.
+
+---
+
+**Learning Python one concept at a time.**
+
